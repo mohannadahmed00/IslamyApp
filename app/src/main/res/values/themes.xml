@@ -1,0 +1,50 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.IslamyApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/colorLightCoffee</item>
+    </style>
+
+    <style name="HomeBg">
+        <item name="android:background">@drawable/main_bg</item>
+    </style>
+    <style name="Theme.IslamyApp" parent="Base.Theme.IslamyApp" />
+    <style name="BottomNavStyle">
+        <item name="android:background">@color/colorCoffee</item>
+        <item name="itemActiveIndicatorStyle">@null</item>
+        <item name="itemIconSize">42dp</item>
+        <item name="itemIconTint">@color/bottom_nav_selector</item>
+        <item name="itemTextColor">@color/bottom_nav_selector</item>
+        <item name="itemRippleColor">@null</item>
+    </style>
+    <style name="TextStyleOne">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+    <style name="TextStyleTwo">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+    <style name="ButtonStyle">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:backgroundTint">@color/colorCoffee</item>
+    </style>
+    <style name="ButtonStyleTwo">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:backgroundTint">@color/colorLightCoffee</item>
+    </style>
+    <style name="ItemStyle">
+        <item name="tint">@color/colorCoffee</item>
+    </style>
+    <style name="ArrowStyle">
+        <item name="tint">@color/colorCoffee</item>
+    </style>
+    <style name="ViewStyle">
+        <item name="android:background">@color/colorCoffee</item>
+    </style>
+    <style name="ImageStyle">
+        <item name="android:src">@drawable/sebha_ic</item>
+    </style>
+    <style name="RecyclerStyle">
+        <item name="android:backgroundTint">@color/colorWhite</item>
+    </style>
+</resources>
